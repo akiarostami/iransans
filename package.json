@@ -1,26 +1,27 @@
 {
-  "name": "persianfonts",
+  "name": "@persianfonts/iransans",
   "version": "1.0.0",
-  "author": "Ahmad Kiarostami<akiarostami@gmail.com>",
-  "license": "OFL",
-  "description": "Persian / Arabic Fonts npms. فونت‌های فارسی و عربی",
-  "keywords": [
-    "font",
-    "farsi",
-    "persian",
-    "arabic"
-  ],
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"visit http://akiarostami.github.io/persianfonts/\""
+  "description": "Self-host the IRANSans font in a neatly bundled NPM package.",
+  "main": "index.css",
+  "publishConfig": {
+    "access": "private"
   },
+  "keywords": [
+    "persianfonts",
+    "font",
+    "persian",
+    "persian font",
+    "font family",
+    "fonts",
+    "IRANSans",
+    "iransans"
+  ],
+  "author": "Ahmad Kiarostami <akiarostami@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/akiarostami/persianfonts/tree/master/packages/iransans#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/akiarostami/persianfonts"
-  },
-  "bugs": {
-    "url": "https://github.com/akiarostami/persianfonts/issues"
-  },
-  "homepage": "https://github.com/akiarostami/persianfonts#readme",
-  "dependencies": {}
+    "url": "https://github.com/akiarostami/persianfonts.git",
+    "directory": "packages/roboto"
+  }
 }
