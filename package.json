@@ -1,0 +1,26 @@
+{
+  "name": "persianfonts",
+  "version": "1.0.0",
+  "author": "Ahmad Kiarostami<akiarostami@gmail.com>",
+  "license": "OFL",
+  "description": "Persian / Arabic Fonts npms. فونت‌های فارسی و عربی",
+  "keywords": [
+    "font",
+    "farsi",
+    "persian",
+    "arabic"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"visit http://akiarostami.github.io/persianfonts/\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akiarostami/persianfonts"
+  },
+  "bugs": {
+    "url": "https://github.com/akiarostami/persianfonts/issues"
+  },
+  "homepage": "https://github.com/akiarostami/persianfonts#readme",
+  "dependencies": {}
+}
